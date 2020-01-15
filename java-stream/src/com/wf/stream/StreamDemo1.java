@@ -62,6 +62,9 @@ public class StreamDemo1 {
 
         System.out.println("-------------------------");
         testReduce();
+
+        System.out.println("-------------------------");
+        testMatch();
     }
 
     /**
@@ -145,6 +148,32 @@ public class StreamDemo1 {
         String reduce = list.stream().reduce("北京", (s, s2) -> s + s2);
         System.out.println(reduce);
     }
+
+    private static void testMatch() {
+        Student s1 = new Student(1L, "肖战", 15, "浙江");
+        Student s2 = new Student(2L, "王一博", 15, "湖北");
+        Student s3 = new Student(3L, "杨紫", 17, "北京");
+        Student s4 = new Student(4L, "李现", 17, "浙江");
+        List<Student> students = new ArrayList<>();
+        students.add(s1);
+        students.add(s2);
+        students.add(s3);
+        students.add(s4);
+
+        if (students.stream().anyMatch(student -> "北京".equals(student.getAddress()))){
+
+            System.out.println("北京");
+        }
+        if (students.stream().anyMatch(student -> student.getAge()>=15)){
+            System.out.println("大于15");
+        }
+        if (students.stream().noneMatch(student -> "小明".equals(student.getName()))){
+            System.out.println("没有叫小明的");
+        }
+
+
+    }
+
 
 
 
