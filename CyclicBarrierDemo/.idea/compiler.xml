@@ -9,9 +9,11 @@
         <module name="CountDownLatchDemo" />
         <module name="SemaphoreDemo" />
         <module name="CyclicBarrierDemo" />
+        <module name="BlockingQueueDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BlockingQueueDemo" target="8" />
       <module name="CountDownLatchDemo" target="8" />
       <module name="CyclicBarrierDemo" target="8" />
       <module name="SemaphoreDemo" target="8" />

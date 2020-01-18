@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BlockingQueueDemo/BlockingQueueDemo.iml" filepath="$PROJECT_DIR$/../BlockingQueueDemo/BlockingQueueDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../CountDownLatchDemo/CountDownLatchDemo.iml" filepath="$PROJECT_DIR$/../CountDownLatchDemo/CountDownLatchDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CyclicBarrierDemo.iml" filepath="$PROJECT_DIR$/.idea/CyclicBarrierDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SemaphoreDemo/SemaphoreDemo.iml" filepath="$PROJECT_DIR$/../SemaphoreDemo/SemaphoreDemo.iml" />

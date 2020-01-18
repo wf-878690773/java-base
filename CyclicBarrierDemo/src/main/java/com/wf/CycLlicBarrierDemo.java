@@ -8,8 +8,10 @@ public class CycLlicBarrierDemo {
         CyclicBarrier  cyclicBarrier = new CyclicBarrier(7,() -> {
             System.out.println("准备就绪");
         });
-        for (int i = 0; i < 7 ; i++) {
+        for (int i = 0; i < 10 ; i++) {
+
             final int index = i;
+
             new Thread(() -> {
                 System.out.println(Thread.currentThread().getName()+"\t 第"+index+"线程准备就序");
                 try {

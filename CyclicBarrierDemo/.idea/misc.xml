@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../CountDownLatchDemo/pom.xml" />
         <option value="$PROJECT_DIR$/../SemaphoreDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../BlockingQueueDemo/pom.xml" />
       </list>
     </option>
   </component>
